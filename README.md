@@ -11,5 +11,5 @@ Third, every platform with XBinder installed is a peer node which, by directly t
 Fourth, XBinder supports concurrent operations for multiple connections. The connections and services of different nodes are isolated, and therefore there is no interference when the nodes are working concurrently.
 
 ## Using scenario
-![image](https://www.dropbox.com/s/6o4v4pyo3whuw48/XBinder.jpg?dl=0)
-
+![image](https://github.com/Stan-Lin/XBinder/blob/master/XBinder-sc0.jpg)
+![image](https://github.com/Stan-Lin/XBinder/blob/master/XBinder-sc1.jpg)
