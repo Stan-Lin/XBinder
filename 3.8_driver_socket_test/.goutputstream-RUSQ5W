@@ -1,0 +1,20 @@
+#include <linux/module.h>	/* Needed by all modules */
+#include <linux/kernel.h>	/* Needed for KERN_INFO */
+#include <linux/socket.h>
+#include <linux/net.h>
+#include <net/sock.h>
+#define port 9734
+
+  struct socket*       sock = NULL;
+
+static void transfer_data(struct socket *newsock)
+{
+        struct msghdr msg;
+        struct kvec vec;
+        char buff[1024];
+        int len;
+        int num;
+	int i;
+	for(i=0;i<100;i++)
+	{
+		buff[i] = 'a';  // 

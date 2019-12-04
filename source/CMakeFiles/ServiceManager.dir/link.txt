@@ -1,0 +1,1 @@
+/usr/bin/gcc     CMakeFiles/ServiceManager.dir/service_manager.c.o CMakeFiles/ServiceManager.dir/binder.c.o  -o ../../../../bin/ServiceManager -rdynamic ../../../../lib/liblog.so -Wl,-rpath,/home/stan/4.2android/surfaceFlinger/lib 
